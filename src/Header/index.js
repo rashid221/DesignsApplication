@@ -6,8 +6,9 @@ function HeaderContainers(props) {
     return (
         <div>
             <div className='header-main'>
-        <div className='header-left'>
-         <h1>Wookie <br/>Movies</h1>   
+       
+         <div className='header-left'>
+         <p>Wookie <br/>Movies</p>   
          </div>
          <div className='header-right'>
          <div className="row g-3">
