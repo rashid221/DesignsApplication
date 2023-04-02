@@ -1,0 +1,8 @@
+.header-main{
+    width:100%;
+    display: flex;
+    padding: 0rem 2rem;
+    justify-content: space-between;
+    align-items:flex-end;
+     box-sizing: border-box;
+      }
