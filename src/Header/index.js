@@ -8,7 +8,7 @@ function HeaderContainers(props) {
             <div className='header-main'>
        
          <div className='header-left'>
-         <p>Wookie <br/>Movies</p>   
+         <p>Wookie <br/>Movies Live</p>   
          </div>
          <div className='header-right'>
          <div className="row g-3">
