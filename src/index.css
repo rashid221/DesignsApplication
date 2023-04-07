@@ -16,3 +16,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.btn-wrapper button{
+background-color: goldenrod;
+border:0px;
+padding:10px;
+border-radius: 4px;
+color: aliceblue;
+box-shadow: #333 0px 1px 5px;
+}
+.img-wrapper img{
+  width: 60px;
+  margin-top: -2px;
+}
+.cart-wrapper{
+  height: 100px;
+  width: 500px;
+  border: 1px solid #ccc;
+  margin-left: 10%;
+  box-shadow:1px 1px 3px 0px black;
+}
+.item{
+  float: left;
+  width: 120px;
+  padding: 20px;
+  height: 70px;
+}
+.add-to-cart{
+  position: absolute;
+  right:1%;
+  top:1%;
+}
