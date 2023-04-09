@@ -9,7 +9,7 @@ const Home = () => {
         <div className="add-to-cart">
             <img src={cartImg} alt="cart"/>
         </div>
-      <h1>Home Components</h1>
+      <h1 className="head-set">E-commerce Application</h1>
       <div className="cart-wrapper">
         <div className="img-wrapper item">
           <img src={apple} alt="appleimage" />
