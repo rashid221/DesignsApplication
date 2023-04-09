@@ -5,7 +5,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js';
 import { useEffect } from 'react';
 import HomeContainer from './containers/HomeContainer';
-
+import HeaderContainer from './containers/HeaderContainer';
 
 function App() {
   // useEffect(()=>{
@@ -25,7 +25,7 @@ function App() {
   return (
     <>
     <HomeContainer/>
-  
+  <HeaderContainer/>
     </>
   );
 }

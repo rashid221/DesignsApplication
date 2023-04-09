@@ -32,6 +32,18 @@ box-shadow: #333 0px 1px 5px;
   text-align: center;
   margin: 10px 0px 30px 0px;
 }
+.set-span{
+  position: absolute;
+  left: 19px;
+  top: -2px;
+  background-color: red;
+  border-radius: 50%;
+  color: aliceblue;
+  height: 15px;
+  width: 15px;
+  /* padding: 4px; */
+  text-align: center;
+}
 .cart-wrapper{
   height: 100px;
   width: 500px;
@@ -41,7 +53,7 @@ box-shadow: #333 0px 1px 5px;
 }
 .item{
   float: left;
-  width: 120px;
+  width: 150px;
   padding: 20px;
   height: 70px;
 }

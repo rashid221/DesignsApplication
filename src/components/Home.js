@@ -1,14 +1,13 @@
 import React from "react";
 import apple from "../Images/Apple-IPhone-Mobile-Transparent-File.png";
-import cartImg from "../Images/shopping-cart-24.png";
 
 
-const Home = () => {
+
+const Home = (props) => {
+  console.log(props);
   return (
     <div>
-        <div className="add-to-cart">
-            <img src={cartImg} alt="cart"/>
-        </div>
+      
       <h1 className="head-set">E-commerce Application</h1>
       <div className="cart-wrapper">
         <div className="img-wrapper item">
@@ -19,7 +18,13 @@ const Home = () => {
           <span>Price: 1000.00$</span>
         </div>
         <div className="btn-wrapper item">
-          <button>Add to Cart</button>
+          <button onClick={()=>props.addToCartHandler(
+            {price:1000,
+            name:"iphone"
+           
+           })}>Add to Cart</button>
+          
+            <button onClick={()=>props.removeToCartHandler()}>Remove to Cart</button>
         </div>
       </div>
     </div>
